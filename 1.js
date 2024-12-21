@@ -24,11 +24,11 @@ boxes.forEach((box) => {
     box.addEventListener('click',()=>{
         if (turnO){
             box.innerText='O';
-            box.style.color='grey';
+            box.style.color='black';
             turnO=false;
         }else{
             box.innerText='X';
-            box.style.color='purple';
+            box.style.color='thick blue';
             turnO=true;
         }
         box.disabled=true;
